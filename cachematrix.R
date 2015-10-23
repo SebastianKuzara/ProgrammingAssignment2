@@ -5,6 +5,8 @@
 
 ## This function create a list containing 4 functions
 makeCacheMatrix <- function(x = matrix()) {
+   
+   ## Assign "NULL value" to the s variable that stored the inverse matrix
     s <- NULL
     
     ## "set" function allows to enter matrix to cache
